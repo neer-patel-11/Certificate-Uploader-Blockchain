@@ -1,3 +1,3 @@
-# TodoList-BlockChain
+# Certificate Uploader-BlockChain
 
-Simple ToDo-List using Truffle, ganache , Node , Solidity 
+Using Truffle, ganache , Node , Solidity 
