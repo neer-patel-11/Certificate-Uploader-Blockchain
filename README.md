@@ -1,3 +1,3 @@
-# TodoList-BlockChain
+#Certificate varification-BlockChain
 
-Simple ToDo-List using Truffle, ganache , Node , Solidity 
+using Truffle, ganache , Node , Solidity 
