@@ -1,4 +1,3 @@
-// import { create as ipfsHttpClient } from "/vendor/ipfs-http-client/";
 App ={
     contracts: {},
     load: async() =>{
@@ -116,7 +115,9 @@ App ={
         const name=$('#name').val()
         const age=$('#age').val()
           await App.certificate.createCertificate(name,age)
-        window.location.reload()
+          const certiId = await App.certificate.certiCount()
+          window.alert("Your certificate id is "+ certiId)
+          window.location.reload()
         App.setLoading=false;
       },
     
