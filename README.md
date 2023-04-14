@@ -1,3 +1,3 @@
-#Certificate varification-BlockChain
+# Certificate Uploader-BlockChain
 
-using Truffle, ganache , Node , Solidity 
+Using Truffle, ganache , Node , Solidity 
