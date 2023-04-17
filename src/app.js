@@ -54,7 +54,7 @@ App ={
 
       async loadContract(){
         const certificate = await $.getJSON('Certificate.json')
-        // console.log(todoList)
+        
         App.contracts.Certificate = TruffleContract(certificate)
         
         App.contracts.Certificate.setProvider(App.web3Provider)
@@ -85,7 +85,7 @@ App ={
 
         const $certificateTemplate = $('.certificateTemplate')
       
-          var i=$('#findTask').val()
+          var i=$('#find').val()
           
           const certificate =await App.certificate.Certificates(i)
           const Id =certificate[0].toNumber()
